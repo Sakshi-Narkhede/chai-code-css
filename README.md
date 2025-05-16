@@ -8,6 +8,7 @@ This repo contains practice work and notes for learning **CSS** from different r
 ## 📁 Table of Contents
 
 1. [basics](./basics/) - Different ways to implement CSS into HTML.
+2. [login_project](./login_project/) - A simple login page to practice CSS
 
 -----
 
