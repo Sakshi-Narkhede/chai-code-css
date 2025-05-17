@@ -1,0 +1,93 @@
+/* TIP - Always read the CSS Selctors from right to left. */
+
+/* 1. Universal Selector */
+/* It is used as a wildcard character. It selects all the elements on the pages. */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 2. Type Selector */
+/* It selects all the elements of the given type within a document. */
+p {
+    font-size: 18px;
+    margin: 10px 15px 10px 15px; /* top right bottom left -> clockwise values */
+    /* margin: 10px 15px; */ 
+    /* top, bottom right, left */
+    /* Shorthand property for same values for margin and padding*/
+    /* margin: 10px; */
+    /* same value on all sides */
+    padding: 1px 2px 3px 4px; /* top right bottom left -> clockwise values */
+}
+
+/* 3. Class Selector */
+/* Syntax - .className */
+.highlight {
+    background-color: aqua;
+}
+
+/* 4. Id Selector */
+/* Syntax - #idName */
+/* According to the specification, we should have only one id on a single webpage */
+#header {
+    color: green;
+    font-weight: bold;
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+}
+
+/* 5. Attribute Selector */
+input[type="text"] {
+    background-color: yellow;
+}
+
+/* 6. Descendant Selector */
+article p {
+    background-color: gray;
+    color: #fff;
+}
+
+/* 7. Child Selector */
+div > p {
+    background-color: orange;
+}
+
+/* 8. Adjacent sibling selector */
+h1 + p {
+    font-style: italic;
+    font-family: cursive;
+} 
+
+/* 9. General sibling selector */
+h2 ~ p {
+    text-decoration-line: underline;
+    text-decoration-style: dotted;
+}
+
+/* 10. Pseudo-class selector */
+/* Used to define a special state of an element. */
+a:hover {
+    background-color: royalblue;
+    color: #fff;
+    text-decoration: none;
+    padding: 5px;
+}
+
+input[type="checkbox"]:focus {
+    outline: 2px solid hotpink;
+}
+
+/* 11. Pseudo-element selector */
+/* Used to style specific parts of an element. */
+p::first-letter {
+    font-weight: bold;
+    font-size: 20px;
+    font-family: cursive;
+}
+
+/* 12. Grouping selector */
+h1, h2, h3 {
+    font-family: monospace;
+}
