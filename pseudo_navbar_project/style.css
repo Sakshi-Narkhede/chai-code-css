@@ -121,7 +121,7 @@ h2 {
     margin: 0;
     padding: 0;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
 }
 .nav3 a {
@@ -133,7 +133,7 @@ h2 {
     font-weight: bold;
 }
 .nav3 a:hover {
-    border: 2px solid #99BC85;
+    background-color: #99BC85;
     border-radius: 5px;
 }
 .nav3 .dropdown-content {
@@ -143,4 +143,21 @@ h2 {
     display: block;
     position: absolute;
     background-color: #e5f5ed;
+}
+.nav3 .dropdown .dropdown-content a:hover {
+    background-color: transparent;
+}
+.nav3 .login-btn {
+    background-color: #719f53;
+    color: #fff;
+    border: none;
+    padding: 8px;
+    border-radius: 5px;
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 15px;
+}
+.nav3 .login-btn:hover {
+    cursor: pointer;
+    background-color: #567e3a;
 }
