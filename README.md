@@ -13,6 +13,7 @@ This repo contains practice work and notes for learning **CSS** from different r
 4. [box_model](./box_model/) - A simple guide to CSS Box Model.
    [`box_model.md`](./box_model/box_model.md) - Short notes on box model and box-sizing properties.
    [`inline_block.md`](./box_model/inline_block.md) - Short notes on behavior of inline and block-level elements.
+5. [pseudo_navbar_project](./pseudo_navbar_project/) - A small project depicting different types of navbars.
 
 -----
 
