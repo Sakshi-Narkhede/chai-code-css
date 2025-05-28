@@ -1,0 +1,86 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.delius-swash-caps-regular {
+    font-family: "Delius Swash Caps", cursive;
+    font-weight: 800;
+    font-style: italic;
+}
+.container {
+    background: linear-gradient(135deg, #F1E5D1, #987070);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.container .content img {
+    width: 100px;
+    object-fit: contain;
+}
+img:hover {
+    cursor: pointer;
+    transform: rotate(5deg);
+    transition-delay: 0.3s;
+}
+.content {
+    padding: 2rem;
+    border: 1px solid #dac4b5;
+    border-radius: 15px;
+}
+h1 {
+    margin-bottom: 30px;
+}
+p {
+    font-size: 18px;
+    color: #FEFAF6;
+    font-weight: 500;
+}
+.tuned {
+    color: #803D3B;
+    font-weight: bold;
+}
+#notify {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+}
+#notify label {
+    color: #FEFAF6;
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+input[type="email"] {
+    border: none;
+    border-radius: 3px;
+    padding: 10px;
+}
+input[type="email"]:hover {
+    border: 1px solid #803D3B;
+    cursor: pointer;
+}
+.button {
+    border: none;
+    border-radius: 2px;
+    padding: 5px;
+    margin-top: 10px;
+    background-color: #803D3B;
+    color: #FEFAF6;
+    letter-spacing: 1px;
+    transition: background-color 0.3s ease-out;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+.button:hover {
+    cursor: pointer;
+    background-color: #764b49;
+}
+
+/* New things learnt in this secction: 
+- background: linear-gradient
+- min-height
+- object-fit
+- rem property for padding
+- transition property
+- box-shadow property
+*/
